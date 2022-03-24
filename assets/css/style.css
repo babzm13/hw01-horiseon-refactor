@@ -1,3 +1,4 @@
+/* || GENERAL STYLES */
 /* All child elements should exist within parent containers with no padding and no margin. */
 * {
     box-sizing: border-box;
@@ -5,11 +6,36 @@
     margin: 0;
 }
 
-/* body's background is light grey */
 body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+/* All links are white and have no underlines. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* || UTILITIES */
+/* Elements are on the left side of the page with a small right margin. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Elements are on the right side of the page with a small left margin. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* || SITEWIDE */
 /* Header has a blue background and white text, with a Trebuchet MS font and 20px of padding. */
 header {
     padding: 20px;
@@ -24,7 +50,6 @@ header h1 {
     font-size: 48px;
 }
 
-/* Makes the SEO in Horiseon grey. */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -49,17 +74,20 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* All links are white and have no underlines. */
-a {
-    color: #ffffff;
-    text-decoration: none;
+/* Footer has 30px of padding on all sides, center-aligned text, and font-family of Trebuchet. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-/*All paragraphs are 16 point fonts. */
-p {
-    font-size: 16px;
+footer h2 {
+    font-size: 20px;
 }
 
+
+/* ||STORE PAGES */
 /* Splash image is 800px tall by the full width of the screen wide. The bottom has a margin of 25 px, and centered. The other two items designate the structure of the picture. */
 #horiseon_image {
     height: 800px;
@@ -68,18 +96,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-/* Elements are on the left side of the page with a small right margin. */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* Elements are on the right side of the page with a small left margin. */
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 /* Designates a part of the page that is 75% the width of the page, displayed as an inline block, and has a 20px margin on the left side only. */
@@ -101,7 +117,6 @@ p {
     background-color: #2589bd;
 }
 
-/* Designates the benefits sections as having white font and 32px margins on the bottom */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -130,26 +145,11 @@ p {
     color: #ffffff;
 }
 
-/* Images are 200px tall at their tallest. */
 .main-body-boxes img {
     max-height: 200px;
 }
 
-/* H2 headings are 20px padded from the bottom and are a font-size of 36px. */
 .main-body-boxes h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-/* Footer has 30px of padding on all sides, center-aligned text, and font-family of Trebuchet. */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-/* H2 of footer is 20px in size. */
-footer h2 {
-    font-size: 20px;
 }
