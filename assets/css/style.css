@@ -1,13 +1,16 @@
+/* All child elements should exist within parent containers with no padding and no margin. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* body's background is light grey */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header has a blue background and white text, with a Trebuchet MS font and 20px of padding. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Header's h1 elements display as inline-blocks and a larger font size. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Makes the SEO in Horiseon grey. */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* The navigation options of the header shuold have some extra padding and margins, a differen font (Gill Sans), be a smaller font size (20px) and align to the right. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +38,30 @@ header nav {
     font-size: 20px;
 }
 
+/* Naviation options have no boxes or dots ahead of them */
 header nav ul {
     list-style-type: none;
 }
 
+/* Individual nav options are shifted left 25px from each other, and displayed as inline-blocks. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* All links are white and have no underlines. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*All paragraphs are 16 point fonts. */
 p {
     font-size: 16px;
 }
 
-#hero {
+/* Splash image is 800px tall by the full width of the screen wide. The bottom has a margin of 25 px, and centered. The other two items designate the structure of the picture. */
+#horiseon_image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,23 +70,27 @@ p {
     background-position: center;
 }
 
+/* Elements are on the left side of the page with a small right margin. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Elements are on the right side of the page with a small left margin. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Designates a part of the page that is 75% the width of the page, displayed as an inline block, and has a 20px margin on the left side only. */
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-#benefits {
+/* Designates a part of the page on the right side with 20 px of padding, 20% the width of the container and 100% the height of the container, and uses the font Gill Sans. */
+#benefits_container {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Designates the benefits sections as having white font and 32px margins on the bottom */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* The benefits sections h3 elements should have a small margin on the bottom and be aligned center. */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Images in the benefits sections should be centered horizontally, and offset with a small margin at the top. They have a max width of 150px. */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Main body boxes have small margins on the bottom and padding of 50 px on all sides. They are 300 px tall, have a blue background, white text, and use Gill Sans as the font. */
 .main-body-boxes {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* Images are 200px tall at their tallest. */
 .main-body-boxes img {
     max-height: 200px;
 }
 
+/* H2 headings are 20px padded from the bottom and are a font-size of 36px. */
 .main-body-boxes h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer has 30px of padding on all sides, center-aligned text, and font-family of Trebuchet. */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* H2 of footer is 20px in size. */
 footer h2 {
     font-size: 20px;
 }
