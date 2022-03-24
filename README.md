@@ -9,4 +9,4 @@ The website can be seen in its deployed form here: https://babzm13.github.io/hw0
 
 A screenshot of the completed website can be seen here:
 
-./assets/images/horiseon-refactoring.png
+![horiseon-refactor](https://user-images.githubusercontent.com/17171574/159986620-0256bdab-9fc4-484c-bcd0-98c582f55f5e.png)
